@@ -1,0 +1,376 @@
+/* 字体声明 */
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?jnamed');
+  src: url('../fonts/icomoon.eot?jnamed#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?jnamed') format('truetype'),
+    url('../fonts/icomoon.woff?jnamed') format('woff'),
+    url('../fonts/icomoon.svg?jnamed#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.main {
+  width: 980px;
+  height: 456px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 220px;
+  margin-top: 10px;
+}
+
+.focus {
+  float: left;
+  width: 720px;
+  height: 456px;
+  background-color: bisque;
+}
+
+.newflash {
+  float: right;
+  width: 250px;
+  height: 456px;
+  /* background-color: blueviolet; */
+}
+
+.newflash .news {
+  height: 165px;
+  border: 1px solid #ccc;
+  background-color: rgb(255, 255, 255);
+}
+
+.bargain {
+  margin-top: 8px;
+}
+
+.news .top {
+  height: 31px;
+  line-height: 31px;
+  border-bottom: 1px dotted #ccc;
+  padding: 0 15px;
+}
+
+.top h4 {
+  float: left;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.top a {
+  float: right;
+}
+
+.top a::after {
+  font-family: 'icomoon';
+  content: '\e902';
+}
+
+.bottom {
+  padding: 5px 15px 0 16px;
+}
+
+.bottom ul li {
+  height: 23px;
+  line-height: 23px;
+  overflow-x: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.newflash .lifestyle {
+  overflow: hidden;
+  height: 208px;
+  /* background-color: blue; */
+  border: 1px solid #ccc;
+  border-top: 0;
+}
+
+.lifestyle ul {
+  width: 252px;
+}
+
+.lifestyle ul li {
+  position: relative;
+  float: left;
+  width: 63px;
+  height: 71px;
+  text-align: center;
+  padding-top: 14px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.lifestyle i {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-bottom: 4px;
+  background: url(../images/icons.png) -17px -16px;
+}
+
+.lifestyle ul li .l1 {
+  background: url(../images/icons.png) -80px -16px;
+}
+
+.lifestyle ul li .l2 {
+  background: url(../images/icons.png) -142px -16px;
+}
+
+.lifestyle ul li .l3 {
+  background: url(../images/icons.png) -206px -16px;
+}
+
+.lifestyle ul li .l4 {
+  background: url(../images/icons.png) -17px -88px;
+}
+
+.lifestyle ul li .l5 {
+  background: url(../images/icons.png) -78px -88px;
+}
+
+.lifestyle ul li .l6 {
+  background: url(../images/icons.png) -141px -88px;
+}
+
+.lifestyle ul li .l7 {
+  background: url(../images/icons.png) -206px -88px;
+}
+
+.lifestyle ul li .l8 {
+  background: url(../images/icons.png) -17px -159px;
+}
+
+.lifestyle ul li .l9 {
+  background: url(../images/icons.png) -78px -159px;
+}
+
+.lifestyle ul li .l10 {
+  background: url(../images/icons.png) -141px -159px;
+}
+
+.lifestyle ul li .l11 {
+  background: url(../images/icons.png) -206px -159px;
+}
+
+.lifestyle ul li img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.recom {
+  margin-top: 10px;
+  height: 164px;
+  background-color: #ebebeb;
+}
+
+.recom_hd {
+  /* position: relative; */
+  float: left;
+  width: 206px;
+  height: 164px;
+  background-color: #5c5251;
+  text-align: center;
+  padding: 30px;
+}
+/* .recom_hd img {
+     position: absolute;
+     top: 50%;
+     margin-top: -44px;
+     left: 50%;
+     margin-left: -37px;
+ } */
+
+.recom_bd {
+  float: left;
+}
+
+.recom_bd ul li {
+  float: left;
+  position: relative;
+}
+
+.recom_bd ul li img {
+  width: 248px;
+  height: 164px;
+}
+
+.recom_bd ul li:nth-child(-n + 3)::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 1px;
+  height: 145px;
+  background-color: #ccc;
+}
+
+/* 猜你喜欢 */
+.likes {
+  margin-bottom: 20px;
+}
+
+.likes_top {
+  margin-top: 20px;
+}
+
+.likes_top i {
+  float: right;
+  margin-top: -20px;
+}
+.likes_bottom {
+  margin-bottom: 20px;
+}
+
+.likes_bottom ul li {
+  float: left;
+  width: 200px;
+  margin: 15px 0 0 30px;
+}
+
+.likes_bottom ul li a img {
+  width: 200px;
+  height: 200px;
+}
+
+.likes_bottom ul li div {
+  margin-top: 10px;
+}
+.likes_bottom ul li div > i {
+  color: red;
+}
+
+.likes_bottom ul li div > .more_info {
+  width: 190px;
+  height: 40px;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.likes_bottom ul li div h3 {
+  display: inline;
+  color: red;
+}
+
+.box_hd {
+  height: 30px;
+  border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+  float: left;
+  font-size: 18px;
+  font-weight: 400;
+  color: #c81623;
+}
+
+.tab_list ul li {
+  float: left;
+}
+
+.tab_list {
+  float: right;
+  line-height: 30px;
+}
+
+.tab_list ul li a {
+  padding: 0 15px;
+}
+
+.box_bd {
+  height: 361px;
+  /* background-color: pink; */
+}
+
+.tab_list_item div {
+  float: left;
+  height: 361px;
+}
+
+.tab_list_item_1 {
+  text-align: center;
+  width: 210px;
+  background-color: #f9f9f9;
+}
+
+.tab_list_item_1 ul li {
+  width: 88px;
+  height: 33px;
+  float: left;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 33px;
+  border-bottom: 1px solid #ccc;
+}
+
+.tab_list_item_1 ul {
+  padding-left: 12px;
+}
+
+.tab_list_item_1 img {
+  margin-top: 23px;
+}
+
+.tab_list_item_2 {
+  width: 329px;
+}
+
+.tab_list_item_3 {
+  width: 220px;
+  padding: 27px 0px 0px 17px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+/*  
+ .tab_list_item_3>a {
+     display: block;
+     border-bottom: 1px solid #ccc;
+ } */
+
+.tab_list_item_4 {
+  width: 221px;
+  padding: 70px 25px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.tab_list_item_5 {
+  width: 220px;
+  padding: 27px 0px 0px 20px;
+  border-bottom: 1px solid #ccc;
+}
+/* .tab_list_item_5>a {
+     display: block;
+     border-bottom: 1px solid #ccc;
+ } */
+
+.tab_1,
+.tab_2 {
+  padding-top: 19px;
+}
+
+.tab_list_item_3 .p1 {
+  float: left;
+  width: 220px;
+  height: 1px;
+  background-color: #ccc;
+  margin-left: -18px;
+}
+
+.tab_list_item_5 .p2 {
+  float: left;
+  width: 220px;
+  height: 1px;
+  background-color: #ccc;
+  margin-left: -20px;
+}
+
+.pinpai {
+  height: 65px;
+  background-color: blueviolet;
+  margin-top: 20px;
+}

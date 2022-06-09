@@ -1,0 +1,148 @@
+/* 列表页专有的css */
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?jnamed');
+    src: url('../fonts/icomoon.eot?jnamed#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?jnamed') format('truetype'), url('../fonts/icomoon.woff?jnamed') format('woff'), url('../fonts/icomoon.svg?jnamed#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.sk img {
+    position: absolute;
+    left: 185px;
+    top: 40px;
+    border-left: 1px solid #b3181c;
+    padding-left: 14px;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 30px;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    font-size: 14px;
+    margin: 0 24px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.sk_con ul li:last-child a::after {
+    font-family: 'icomoon';
+    content: '\e900';
+}
+
+.sk_bd ul li {
+    overflow: hidden;
+    float: left;
+    width: 290px;
+    height: 460px;
+    /* background-color: burlywood; */
+    text-align: center;
+    margin: 10px 10px 0 0;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.phone {
+    width: 290px;
+    height: 50px;
+    padding: 5px 5px 0 5px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.sk_bd ul li h1 {
+    float: left;
+    color: red;
+    font-size: 22px;
+    margin-left: 13px;
+}
+
+.sk_bd ul li em {
+    float: left;
+    margin-top: 8px;
+    margin-left: 5px;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid red;
+    border-bottom: 0;
+}
+
+.sell {
+    margin-top: 40px;
+    width: 290px;
+    height: 27px;
+    /* background-color: rgb(194, 207, 7); */
+}
+
+.sell_left {
+    float: left;
+    text-align: center;
+    line-height: 27px;
+    margin-left: 15px;
+}
+
+.sell_1 {
+    float: left;
+    position: absolute;
+    width: 134px;
+    height: 10px;
+    border: 1px solid red;
+    margin: 8px 12px 8px 74px;
+    border-radius: 5px;
+}
+
+.sell_2 {
+    float: left;
+    width: 87%;
+    height: 9px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.sell_right {
+    float: right;
+    line-height: 27px;
+    margin-right: 13px;
+}
+
+.sell_bd {
+    width: 290px;
+    height: 50px;
+    background-color: red;
+    margin-top: 3px;
+}
+
+.sell_bd h2 {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+/* 
+.sk_container .sk_bd ul li {
+    float: left;
+} */

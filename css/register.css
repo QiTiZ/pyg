@@ -1,0 +1,161 @@
+ /* 版心 */
+ 
+ .w {
+     width: 1200px;
+     margin: 0 auto;
+ }
+ 
+ .style_red {
+     color: red;
+ }
+ 
+ header {
+     height: 82px;
+     /* background-color: thistle; */
+     border-bottom: 2px solid #b1191a;
+     line-height: 82px;
+ }
+ 
+ .registerarea {
+     height: 525px;
+     /* background-color: thistle; */
+     margin-top: 22px;
+     border: 1px solid #ccc;
+ }
+ 
+ .new {
+     position: relative;
+     height: 42px;
+     background-color: #ececec;
+ }
+ 
+ .new h2 {
+     float: left;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 42px;
+     margin-left: 12px;
+ }
+ 
+ .new span {
+     position: absolute;
+     float: left;
+     top: 13px;
+     right: 9px;
+ }
+ 
+ .regform {
+     width: 600px;
+     /* background-color: thistle; */
+     margin: 54px auto 0;
+ }
+ 
+ .regform ul li {
+     margin-bottom: 20px;
+ }
+ 
+ .regform ul li label {
+     display: inline-block;
+     width: 85px;
+     text-align: right;
+ }
+ 
+ .regform ul li .inp {
+     width: 240px;
+     height: 35px;
+     border: 1px solid #ccc;
+ }
+ 
+ .regform ul li span {
+     margin-left: 15px;
+ }
+ 
+ .error {
+     color: red;
+ }
+ 
+ .error_icon {
+     /* i是行内元素 不能直接给宽和高 需要转化为行内块元素 */
+     display: inline-block;
+     vertical-align: middle;
+     margin-top: -2px;
+     width: 20px;
+     height: 20px;
+     background: url(../images/error.png) no-repeat;
+ }
+ 
+ .success {
+     color: green;
+ }
+ 
+ .success_icon {
+     /* i是行内元素 不能直接给宽和高 需要转化为行内块元素 */
+     display: inline-block;
+     vertical-align: middle;
+     margin-top: -2px;
+     width: 20px;
+     height: 20px;
+     background: url(../images/success.png) no-repeat;
+ }
+ 
+ .safe {
+     margin-left: 157px;
+ }
+ 
+ .safe i {
+     margin-right: 5px;
+     color: #bebebe;
+ }
+ 
+ .safe em {
+     padding: 0 12px;
+     color: #fff;
+     margin-right: 2px;
+ }
+ 
+ .ruo {
+     background-color: #de1111;
+ }
+ 
+ .zhong {
+     background-color: #40b83f;
+ }
+ 
+ .qiang {
+     background-color: #f79100;
+ }
+ 
+ .xieyi {
+     margin-left: 95px;
+     vertical-align: middle;
+     margin-right: 5px;
+ }
+ 
+ .agree a {
+     color: #1ba1e6;
+ }
+ 
+ .btn {
+     width: 200px;
+     height: 32px;
+     background-color: red;
+     font-size: 14px;
+     color: #fff;
+     margin: 30px 0 0 100px;
+ }
+ 
+ .mod_copyright {
+     text-align: center;
+ }
+ 
+ .links {
+     margin: 20px 0px 10px 0px;
+ }
+ 
+ .links a {
+     padding: 0 5px;
+ }
+ 
+ .copyright {
+     line-height: 20px;
+ }
